@@ -7,7 +7,7 @@ install: TRUE
 
 script:
   - mvn install
-  - mvn -B -U -f build-pom.xml verify --fail-at-end -Dsource.skip=true -Dmaven.javadoc.skip=true
+  #- mvn -B -U -f build-pom.xml verify --fail-at-end -Dsource.skip=true -Dmaven.javadoc.skip=true
 
 jdk:
   - oraclejdk9
